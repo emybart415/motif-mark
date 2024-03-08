@@ -20,7 +20,7 @@ It requires the input of a fasta file and a text tile that contains the motifs o
 
 • 'motif-mark-oop.py' - main script
 
-• 'bioinfo.py' - script that inclueds some functions that are imported and used by the main script
+• 'bioinfo.py' - script that uncludes required functions that are imported and used by the main script
 
 ## Required Packages (scripts themselves will handle importation)
 
