@@ -55,8 +55,9 @@ bioinfo.py
 
 ## Usage and Output
 Argparse is being used in the main script, to run you enter the following in your terminal once you are in your working directory:
-
+```
 $ ./motif-mark-oop.py -f <fata_file_name_and_location>.fasta -m <motif_file_name_and_location>.txt
+```
 
 The output file will be of both .png and .svg file format. It will be named based on the name of the fasta input file.
 The script will output the phrase "Image Created Successfully and Saved" when the script is run successfully. 
