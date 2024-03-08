@@ -3,17 +3,23 @@
 ----------------------------------------------------------------------------------------------------------------
 A python script that uses object-orientated code to visualize the locations of motifs and exons on a gene.
 Bellow is an example: 
+----------------------------------------------------------------------------------------------------------------
 
-![alt text](https://github.com/mybart415/motif-mark/blob/Figure_1.jpg?raw=true)
+![Figure 1](https://github.com/mybart415/motif-mark/raw/main/Figure_1.jpg)
+
 
 It requires the input of a fasta file and a text tile that contains the motifs of interest. The text file mus be set up as a mone motif per line file.
 
 ### Input Files
+
 • fasta.fasta file
+
 • motif.txt file
 
 ## Files required to run the script
+
 • 'motif-mark-oop.py' - main script
+
 • 'bioinfo.py' - script that inclueds some functions that are imported and used by the main script
 
 ## Required Packages (scripts themselves will handle importation)
