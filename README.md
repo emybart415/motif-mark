@@ -1,14 +1,14 @@
 
 # motif-mark
 ----------------------------------------------------------------------------------------------------------------
-A python script that uses object-orientated code to visualize the locations of motifs and exons on a gene.
+A python script that uses object-orientated programming to visualize the locations of motifs and exons on a gene.
 Bellow is an example: 
 ----------------------------------------------------------------------------------------------------------------
 
 ![Figure 1](https://github.com/emybart415/motif-mark/blob/main/Figure_1.png)
 
 
-It requires the input of a fasta file and a text tile that contains the motifs of interest. The text file mus be set up as a mone motif per line file.
+It requires the input of a fasta file and a text tile that contains the motifs of interest. The text file must be in a one-motif per line setup.
 
 ### Input Files
 
