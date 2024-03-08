@@ -207,18 +207,14 @@ with open('tempfile.fa', 'r') as fh1:
             exon_instance.draw(exon_start, exon_stop, xaxis_loc)
 
             seq_u = seq.upper()
-            #print("Sequence:", seq_u)
-            print(f'debug 747 -------------')
             for index, motif in enumerate(motif_list):
                 motif = motif.upper()# Ensure motif is in uppercase
                 motif_stop = len(motif)
                 extended_motif_list = expand_motif_list(motif, iupacbases)
-                print("Motif:", motif)
 
                 for extended_motif in extended_motif_list:
 
                     motif_positions = [m.start() for m in re.finditer(extended_motif, seq_u)]  # Find motif positions for the current motif
-                    #print(motif_positions)
                     for motif_start in motif_positions:
                         motif_instance = Motif(motif_start, motif_stop, xaxis_loc, colors[index % len(colors)])
                         motif_instance.draw(motif_start, motif_stop, xaxis_loc)
